@@ -1,6 +1,7 @@
 # ===== WINFETCH CONFIGURATION =====
 
-$imageDir = "C:\Users\tripp\.config\winfetch\images"
+
+$imageDir = "full/path/to/image/directory"
 # Get a list of all the image files in the directory
 $extensions = @(".jpg", ".jpeg", ".png", ".gif", ".bmp")
 $imageFiles = Get-ChildItem -Path $imageDir 
