@@ -1,6 +1,7 @@
 # ===== WINFETCH CONFIGURATION =====
 
 
+# replace with the path to your image directory
 $imageDir = "full/path/to/image/directory"
 # Get a list of all the image files in the directory
 $extensions = @(".jpg", ".jpeg", ".png", ".gif", ".bmp")
@@ -11,7 +12,6 @@ $randomImage = Get-Random -InputObject $imageFiles
 
 # Set the $image variable to the path of the randomly chosen image file
 $image = $randomImage.FullName
-# $image = "C:\Users\tripp\.config\winfetch\Leo_Sternbach.jpg" 
 
 # $noimage = $true
 
